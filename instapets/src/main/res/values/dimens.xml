@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_margin">8dp</dimen>
+    <dimen name="grid_view_item_margin">8dp</dimen>
+    <dimen name="progress_width_height">48dp</dimen>
+    <dimen name="progress_icon_width_height">32dp</dimen>
+    <dimen name="licence_text_font_size">16sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

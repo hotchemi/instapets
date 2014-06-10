@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/actionbar_style</item>
+        <item name="actionBarStyle">@style/actionbar_style</item>
+        <item name="android:actionBarWidgetTheme">@style/AppThemeHolo</item>
+    </style>
+
+    <style name="actionbar_style" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/light_coral</item>
+        <item name="background">@color/light_coral</item>
+        <item name="android:titleTextStyle" tools:ignore="NewApi">@style/actionbar_title_textstyle
+        </item>
+        <item name="titleTextStyle">@style/actionbar_title_textstyle</item>
+    </style>
+
+    <style name="actionbar_title_textstyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppThemeHolo" parent="android:Theme.Holo">
+        <item name="android:listChoiceBackgroundIndicator">@color/light_coral</item>
+    </style>
+
+</resources>

@@ -1,0 +1,13 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    android:id="@+id/swipe_refresh"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridView
+        android:id="@+id/grid_view_show_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="@integer/grid_column_count"/>
+
+</android.support.v4.widget.SwipeRefreshLayout>

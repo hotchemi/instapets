@@ -1,0 +1,12 @@
+*.iml
+*.apk
+
+.DS_Store
+
+jks/
+.gradle/
+
+local.properties
+.idea/
+
+res/values/api_key.xml

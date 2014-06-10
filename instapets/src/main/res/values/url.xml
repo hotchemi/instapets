@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_url">https://api.instagram.com/v1/tags/%1$s/media/recent?access_token=%2$s</string>
+</resources>

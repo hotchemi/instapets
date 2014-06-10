@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/label_setting">
+
+        <PreferenceScreen
+            android:key="@string/label_setting_rate"
+            android:title="@string/label_setting_rate"/>
+
+        <PreferenceScreen
+            android:key="@string/label_setting_recent_changes"
+            android:title="@string/label_setting_recent_changes"/>
+
+        <PreferenceScreen
+            android:key="@string/label_setting_licence"
+            android:summary="@string/label_setting_licence_description"
+            android:title="@string/label_setting_licence"/>
+
+        <PreferenceScreen
+            android:key="@string/label_setting_version"
+            android:title="@string/label_setting_version"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
